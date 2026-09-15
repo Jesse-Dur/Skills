@@ -3,6 +3,12 @@
 Custom Codex skills live in [`skills/`](skills/). Each skill should be a
 directory containing a `SKILL.md` file, plus any supporting resources it needs.
 
+## Available skills
+
+- [Unslop](skills/unslop/SKILL.md): Remove AI writing patterns from prose.
+  Copied from [Poteto's noodle repository](https://github.com/poteto/noodle),
+  with upstream attribution and license in [skills/unslop/README.md](skills/unslop/README.md).
+
 To make the skills available in an environment, clone this repository and run:
 
 ```sh
