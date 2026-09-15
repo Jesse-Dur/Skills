@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Fix Loop"
+  short_description: "Review, audit, and fix changes until the review is clean"
+  default_prompt: "Use $review-fix-loop to review these changes, audit findings, and apply minimal fixes until no in-scope issues remain, asking whenever scope or intent is uncertain."

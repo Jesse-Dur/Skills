@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Monitor & Fix"
+  short_description: "Watch PR feedback and CI, verify fixes, and push"
+  default_prompt: "Use $pr-monitor-fix to monitor this PR, audit review feedback and CI failures, fix verified in-scope issues, commit and push, and repeat until checks and reviews pass."
