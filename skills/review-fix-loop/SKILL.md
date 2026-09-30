@@ -31,12 +31,7 @@ Trace each suspected issue to its cause and check the evidence before editing. U
 
 Do not silently discard a plausible issue because it is difficult to reproduce. Resolve it with evidence, ask when intent is unclear, or report the verification blocker.
 
-### 3. Plan the smallest reasonable fixes
-For each confirmed in-scope issue, create a plan covering the minimal sufficient change.
-
-Prefer a focused correction that addresses the cause and fits existing patterns. Avoid broad refactors, dependency upgrades, new abstractions, feature additions, and adjacent cleanup unless required to resolve the issue within the original intent. Smallest reasonable means a sound fix, not just the fewest edited lines or a workaround that hides the symptom.
-
-If no such fix is clear without a directional decision or scope expansion, ask me before starting any work.
+### 3. Plan the smallest reasonable fixes using the plan skill.
 
 ### 4. Fix and verify
 Implement the scoped fixes. Add or adjust meaningful regression coverage when warranted by the behavior and risk; run the relevant tests and required repository checks. Verify that the issue is resolved and the original behavior remains satisfied.

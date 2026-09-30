@@ -27,10 +27,7 @@ Read current AI review bot feedback, maintainer reviews, inline review threads a
 ### 2. Audit each suspected issue
 Confirm each finding or CI failure to be a real issue or false flag by reproducing them, and read enough surrounding code to understand the full cause and be able to apply the most elegent fixes possible. 
 
-### 3. Plan the smallest reasonable fixes
-Prefer a focused correction that fits existing patterns. Avoid broad refactors, dependency upgrades, new abstractions, feature additions, and adjacent cleanup unless required within the original intent. Smallest reasonable means a sound fix, not just the fewest edited lines or a workaround hiding the symptom.
-
-If a sound fix requires a directional decision or scope expansion, ask me before starting any work.
+### 3. Plan the smallest reasonable fixes using the plan skill.
 
 ### 4. Implement and verify
 Implement the scoped fixes. Add or adjust meaningful regression coverage when warranted by behavior and risk. Run relevant tests and required repository checks, and confirm the triggering issue is resolved while original acceptance criteria remain satisfied.
@@ -48,4 +45,4 @@ Poll at a modest cadence, and respect rate limits. Re-audit when code or feedbac
 Do not stop after a preset number of iterations. If progress requires missing access, an unanswered scope decision, human action, or infrastructure repair, report the concrete blocker and ask for the needed input. If fixes oscillate or recreate an issue, pause for diagnosis instead of repeating ineffective edits.
 
 ## Completion
-Report the PR link, final head commit, fixes and commits pushed, verification results, and check/review status. List false positives and unrelated findings separately with enough evidence and location detail for follow-up. Clearly distinguish completion from blockers, and describe status as observed at the final refresh. Use the unslop skill to keep your output readable. 
+Report the PR link, final head commit, fixes and commits pushed, verification results, and check/review status. List false positives and unrelated findings separately with enough evidence and location detail for follow-up. Clearly distinguish completion from blockers, and describe status as observed at the final refresh. You may wish to use the unslop skill to keep your output readable. 

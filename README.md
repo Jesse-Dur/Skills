@@ -12,6 +12,8 @@ directory containing a `SKILL.md` file, plus any supporting resources it needs.
   findings, and apply minimal fixes until no in-scope issues remain. Preserves
   the original intent, asks when decisions are unclear, and reports unrelated
   findings separately.
+- [Plan](skills/plan/SKILL.md): Plan the smallest reasonable fixes for confirmed
+  in-scope issues without implementing them. Extracted from Review Fix Loop.
 - [PR Monitor & Fix](skills/pr-monitor-fix/SKILL.md): Watch PR reviews, bug
   comments, and CI failures; validate issues, make minimal in-scope fixes,
   verify, commit, and push until checks and reviews pass. Runs separately

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan"
+  short_description: "Plan the smallest reasonable fixes"
+  default_prompt: "Use $plan to plan the smallest reasonable fixes for confirmed in-scope issues."
