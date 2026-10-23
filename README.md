@@ -5,6 +5,9 @@ directory containing a `SKILL.md` file, plus any supporting resources it needs.
 
 ## Available skills
 
+- [Commenting](skills/commenting/SKILL.md): Write comments and replies on PRs,
+  issues, discussions, and review threads with a plain-language overview, a
+  focused body, and a model/harness signature. Applies Unslop before delivery.
 - [Unslop](skills/unslop/SKILL.md): Remove AI writing patterns from prose.
   Copied from [Poteto's noodle repository](https://github.com/poteto/noodle),
   with upstream attribution and license in [skills/unslop/README.md](skills/unslop/README.md).

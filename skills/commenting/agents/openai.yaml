@@ -1,0 +1,7 @@
+interface:
+  display_name: "Commenting"
+  short_description: "Use to post comments on PRs, issues, etc."
+  default_prompt: "Use $commenting to draft a reply for this thread on my behalf."
+
+policy:
+  allow_implicit_invocation: true
