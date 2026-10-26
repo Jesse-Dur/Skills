@@ -1,0 +1,3 @@
+interface:
+  display_name: "Get Merged"
+  short_description: "Commit, review, open a PR, watch, fix, and merge"

@@ -5,6 +5,10 @@ directory containing a `SKILL.md` file, plus any supporting resources it needs.
 
 ## Available skills
 
+- [Get Merged](skills/get-merged/SKILL.md): Commit changes, run Review Fix Loop,
+  open or update a PR, push, and use PR Monitor & Fix until checks and reviews
+  pass, then merge. Only applies when explicitly asked to merge code. Asks for
+  help when blocked.
 - [Commenting](skills/commenting/SKILL.md): Write comments and replies on PRs,
   issues, discussions, and review threads with a plain-language overview, a
   focused body, and a model/harness signature. Applies Unslop before delivery.
