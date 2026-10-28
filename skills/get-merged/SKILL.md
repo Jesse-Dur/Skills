@@ -25,6 +25,7 @@ and final merge; do not ask for routine confirmation at each step.
    the merge against a concurrent head change. Never bypass checks or protections.
 6. Confirm the PR is merged and report its link, merge commit, and verification.
    Arming a watcher or enabling auto-merge is not confirmation of a completed merge.
+   Make sure to stop your dev server afterwards.
 
 Keep the scope and help-seeking rules of the two loop skills. Ask for help when
 access, human approval, unresolved intent, or another concrete blocker prevents
